@@ -49,6 +49,8 @@ public class ForLoops01 {
             }
             System.out.print(ch);
             System.out.println("========");
+
+            System.out.println("+=++++");
         }
     }
 }
