@@ -1,4 +1,4 @@
-package forLoop;
+package loops;
 
 public class ForLoops02 {
     public static void main(String[] args) {
