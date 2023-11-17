@@ -12,7 +12,7 @@ public class MethodCreation02 {
         int result2=carpTopla(4,4,2);
         System.out.println("result2 = " + result2);
 
-        girilenKelimeyiYazdir();
+        girilenKelimeyiYazdir("Semra");
     }
 
 
@@ -29,11 +29,10 @@ public class MethodCreation02 {
        return a * b +c ;
     }
 
+
+
     //ornek 3: Girilen bir kelimeyi konsola yazdiran bir method olusturunuz
-    public static void girilenKelimeyiYazdir(){
-        Scanner input=new Scanner(System.in);
-        System.out.println("Yazdirmak istediginiz kelimeyi yaziniz");
-        String s=input.next();
+    public static void girilenKelimeyiYazdir(String s){
        System.out.println(s);
     }
 
