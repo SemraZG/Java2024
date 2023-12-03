@@ -43,5 +43,6 @@ public class Iterators {
             myItr.remove(); //next'in verdigi elemani siler
         }
         System.out.println(myList); //[]
+        System.out.println();
     }
 }
